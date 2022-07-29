@@ -72,8 +72,15 @@ for (x of supplyChanges) {
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
 
+let sum = 0;
+for (let i = 0; i < supplyChanges.length; i++) {
+    sum += supplyChanges[i];
+
+}
+console.log(sum);
 
 
+// i feel like i might not be far off here? but it's obviously not working and I feel a bit stuck
 
 // 9. We have a large stash of parts in our warehouse that we 
 //    need to box up and get ready for shipment. 
@@ -82,7 +89,11 @@ console.log('8. Total supplies available is:');
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
-// add parts to boxes until we run out of boxes
-// each box can hold 7 parts
-// how many boxes did we fill?
-// how much is left over?
+
+// let boxes = 0;
+// let parts = 572;
+
+// // while we have enough parts to fit in boxes fill boxes
+// while (parts % 7 > boxes) {
+//     if ()
+// }
