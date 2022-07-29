@@ -98,6 +98,5 @@ while (parts / 7 > 1) {
     parts -= 7;
 }
 
-// After loop is done, we should be able to log:
 console.log(`We filled ${boxes} boxes.`);
 console.log(`There were ${parts} left over.`);
