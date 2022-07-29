@@ -37,13 +37,13 @@ console.log(supplyChanges);
 console.log('6. Showing supplyChanges...');
 for (i = 0; i <= supplyChanges.length; i++) {
     if (supplyChanges[i] > 0) {
-        console.log('Added', supplyChanges[x], 'parts');
+        console.log('Added', supplyChanges[i], 'parts');
     }
     else if (supplyChanges[i] = 0) {
         console.log('No Change');
     }
-    else (supplyChanges[i]){
-        console.log('Removed', _______, 'parts');
+    else if (supplyChanges[i] < 0) {
+        console.log('Removed', supplyChanges[i], 'parts');
     }
 }
 
