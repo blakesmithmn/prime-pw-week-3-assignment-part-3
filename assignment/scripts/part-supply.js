@@ -90,10 +90,14 @@ console.log(sum);
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
 
-// let boxes = 0;
-// let parts = 572;
+let boxes = 0;
+let parts = 572;
 
-// // while we have enough parts to fit in boxes fill boxes
-// while (parts % 7 > boxes) {
-//     if ()
-// }
+while (parts / 7 > 1) {
+    boxes++;
+    parts -= 7;
+}
+
+// After loop is done, we should be able to log:
+console.log(`We filled ${boxes} boxes.`);
+console.log(`There were ${parts} left over.`);
