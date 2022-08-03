@@ -53,7 +53,7 @@ for (let i = 0; i < supplyChanges.length; i++) {
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
 console.log('7. Showing supplyChanges with "for of" loop');
-for (x of supplyChanges) {
+for (let x of supplyChanges) {
     if (x > 0) {
         console.log('Added', x, 'parts');
     }
